@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- <script src="lodash.js" >  </script> -->
+    <script src="underscore.js" > </script>
+
+    <script>
+
+        const arr = [1, 2, 3, 'a', true, {}]
+
+        const group = _.chunk(arr, 2)
+        console.log("chunk", group)
+
+        console.log( arr.findIndex( ele => ele === 'a' ) )
+
+        console.log( arr.find( (ele) => ele === 'b' ) )
+
+    </script>
+    
+</body>
+</html>
